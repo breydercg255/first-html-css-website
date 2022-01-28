@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@600&family=Supermercado+One&display=swap');
+body {
+    background-color: #E6DDC4;
+    font-family: "Josefin Sans", sans-serif;
+    color: #ffF;
+}
+a {
+    color: #1A374D;
+    font-family: "Supermercado One", sans-serif;
+    text-decoration: none;
+    transition: 0.2s;
+}
+a:hover {
+    color: #fff;
+    background-color: #6998AB;
+    border-bottom: 2px solid #FC9918;
+}
+h2 {        
+    font-size: 3em;
+    padding: 0 30px;
+}
+p {
+    font-size: 1.2em;
+}
+.my-challenge {
+    font-family: "Supermercado One", sans-serif;
+}

@@ -1,0 +1,35 @@
+.challenge-div {
+    background-color: #181D31;
+    border: 5px solid #678983;
+    border-radius: 10px;    
+    margin: 100px auto 0;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+}
+.trophy_img {  
+    border: 2px solid #fff;
+    border-radius: 50%;    
+    margin-top: -90px;  
+    width: 25%;
+}
+.challenge-div, .trophy_img {
+    box-shadow: -2px -2px 5px rgba(0, 0, 0, 0.7);
+}
+.date-span {
+    color: #FC9918;
+}
+.outer-paragraph {
+    text-align: center;
+    color: #000;
+}
+@media (max-width: 992px) {
+    .challenge-div {
+        width: 90%;
+    }
+}
+@media (max-width: 508px) {
+    .trophy_img {
+        width: 50%;
+    }
+}

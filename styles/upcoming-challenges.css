@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+}
+h1,
+ul,
+.initial-h3 {
+  margin: 0;
+}
+h1 {
+  font-size: 3em;
+}
+h3 {
+  font-size: 1.5em;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+li {
+  background: #fc9918;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  margin: 25px auto;
+  padding: 10px 0;
+  width: 80%;
+}
+a {
+  font-size: 1.2em;
+}
+main {
+  margin-bottom: 35px;
+}
+.plans {
+  background-color: #678983;
+  padding: 20px 0;
+}
+.goals {
+  padding: 30px 0;
+}
+.full-body-div {
+  margin: 0 auto;
+  text-align: center;
+  width: 60%;
+}
+.full-body-div {
+  box-shadow: -3px 3px 5px rgba(0, 0, 0, 0.7);
+}
+.goals, .full-body-div {
+    background-color: #181d31;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.initial-h3 {
+  padding-top: 10px;
+}
+.highlight-goal {
+  border-width: 4px;
+  border-color: rgb(180, 180, 180);
+  border-style: dashed;
+  animation: highlight 2s infinite;
+}
+@keyframes highlight {
+  from {
+    backgorund-color: #fc9918;
+  }
+  to {
+    background-color: #bb6a00;
+  }
+}
+@media (max-width: 992px) {
+  .full-body-div {
+    width: 90%;
+  }
+}
